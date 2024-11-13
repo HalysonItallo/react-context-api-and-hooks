@@ -1,0 +1,19 @@
+const prefix = "CounterContext";
+
+const INCREASE = `${prefix}/INCREASE`;
+const DECREASE = `${prefix}/DECREASE`;
+const RESET = `${prefix}/RESET`;
+const SET_COUNTER = `${prefix}/SET_COUNTER`;
+const ASYNC_INCREASE_START = `${prefix}/ASYNC_INCREASE_START`;
+const ASYNC_INCREASE_END = `${prefix}/ASYNC_INCREASE_END`;
+const ASYNC_INCREASE_ERROR = `${prefix}/ASYN_INCREASE_ERROR`;
+
+export {
+	INCREASE,
+	DECREASE,
+	RESET,
+	SET_COUNTER,
+	ASYNC_INCREASE_START,
+	ASYNC_INCREASE_END,
+	ASYNC_INCREASE_ERROR,
+};
